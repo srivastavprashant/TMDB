@@ -2,6 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+  --orange: #FF8811;
+  --white: #FFFFFF;
+  --black: #000000;
+  --grey-light: #DDD;
+  --grey-dark: #323232;
+  --black-film: rgba(0, 0, 0, 0.7); 
+  --primary: #00072D;
+  --linear: linear-gradient(to bottom left, #43C6AC, #00072D);
 }
 
 body {
@@ -31,8 +39,4 @@ body {
 @font-face {
   font-family: poppins-medium;
   src: url(./fonts/Poppins-Medium.ttf);
-}
-
-.ha{
-  /* hey */
 }
